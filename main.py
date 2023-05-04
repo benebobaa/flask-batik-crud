@@ -93,7 +93,7 @@ def delete_batik_item(item_id):
 
 @app.route('/')
 def index():
-  return 'hello, this api created by beneboba'
+  return 'hello, this api created by beneboba :)'
 
 if __name__ == '__main__':
-  app.run(port=5000)
+  app.run(host="0.0.0.0",port=5000, debug=True)
